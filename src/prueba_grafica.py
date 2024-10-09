@@ -105,7 +105,7 @@ class QuizApp:
         print(f"Respuestas correctas: {self.pregunta_actual.correctas}")
         
         # Asegurarse de que ambas listas estén ordenadas antes de comparar
-        if sorted(seleccionadas) == sorted(self.pregunta_actual.correctas):
+        if sorted([respuesta[0] for respuesta in seleccionadas]) == sorted([respuesta[0] for respuesta in self.pregunta_actual.correctas]):
             self.resultado_label.config(text="¡Has acertado todo!", fg="green")
         else:
             respuesta_correcta = ', '.join([respuesta[0] for respuesta in self.pregunta_actual.correctas])
