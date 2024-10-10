@@ -1,7 +1,5 @@
 import tkinter as tk
 from tkinter import messagebox
-#from preguntas import *
-#from soluciones import *
 from collections import namedtuple
 import random
 import csv
@@ -27,6 +25,8 @@ class QuizApp:
         self.pregunta_actual = None
         self.respuestas_seleccionadas = []
         self.preguntas_mostradas = set()
+        self.aciertos = 0
+        self.fallos = 0
         
         # Crear widgets de la interfaz
         self.tema_label = tk.Label(root, text="Selecciona un tema:")
@@ -46,7 +46,7 @@ class QuizApp:
         self.enviar_button = tk.Button(root, text="Enviar Respuesta", command=self.verificar_respuesta)
         self.siguiente_button = tk.Button(root, text="Siguiente Pregunta", command=self.mostrar_pregunta)
         self.resultado_label = tk.Label(root, text="", fg="green")
-        
+
     def seleccionar_tema(self):
         tema_seleccionado = self.tema_var.get()
         self.preguntas_filtradas = [pregunta for pregunta in self.preguntas if pregunta.tema == tema_seleccionado]
@@ -68,8 +68,7 @@ class QuizApp:
 
     def mostrar_pregunta(self):
         if len(self.preguntas_mostradas) == len(self.preguntas_filtradas):
-            messagebox.showinfo("Fin del Quiz", "No quedan más preguntas.")
-            self.root.quit()
+            self.fin_quiz()
             return
         
         while True:
@@ -107,9 +106,35 @@ class QuizApp:
         # Asegurarse de que ambas listas estén ordenadas antes de comparar
         if sorted([respuesta[0] for respuesta in seleccionadas]) == sorted([respuesta[0] for respuesta in self.pregunta_actual.correctas]):
             self.resultado_label.config(text="¡Has acertado todo!", fg="green")
+            self.aciertos += 1
         else:
             respuesta_correcta = ', '.join([respuesta[0] for respuesta in self.pregunta_actual.correctas])
             self.resultado_label.config(text=f"Respuestas correctas: {respuesta_correcta}", fg="red")
+            self.fallos += 1
+
+    def fin_quiz(self):
+        respuesta = messagebox.askyesno("Fin del Quiz", f"No quedan más preguntas.\nAciertos: {self.aciertos}\nFallos: {self.fallos}\n¿Quieres volver a la selección de temas?")
+        if respuesta:
+            self.reiniciar_quiz()
+        else:
+            self.root.quit()
+
+    def reiniciar_quiz(self):
+        self.preguntas_mostradas.clear()
+        self.aciertos = 0
+        self.fallos = 0
+        
+        # Ocultar los widgets de preguntas
+        self.pregunta_label.pack_forget()
+        self.checkbuttons_frame.pack_forget()
+        self.enviar_button.pack_forget()
+        self.siguiente_button.pack_forget()
+        self.resultado_label.pack_forget()
+        
+        # Mostrar los widgets de selección de tema
+        self.tema_label.pack(pady=20)
+        self.tema_menu.pack(pady=20)
+        self.tema_button.pack(pady=20)
 
 
 if __name__ == "__main__":
