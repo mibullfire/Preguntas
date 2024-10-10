@@ -99,10 +99,6 @@ class QuizApp:
     def verificar_respuesta(self):
         seleccionadas = [self.pregunta_actual.respuestas[i] for i, var in enumerate(self.respuestas_vars) if var.get() == 1]
         
-        # Imprimir las respuestas seleccionadas y las correctas en la terminal
-        print(f"Respuestas seleccionadas: {seleccionadas}")
-        print(f"Respuestas correctas: {self.pregunta_actual.correctas}")
-        
         # Asegurarse de que ambas listas estén ordenadas antes de comparar
         if sorted([respuesta[0] for respuesta in seleccionadas]) == sorted([respuesta[0] for respuesta in self.pregunta_actual.correctas]):
             self.resultado_label.config(text="¡Has acertado todo!", fg="green")
