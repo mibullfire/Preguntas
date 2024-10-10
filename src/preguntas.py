@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import messagebox
-from preguntas import *
-from soluciones import *
+#from preguntas import *
+#from soluciones import *
 from collections import namedtuple
 import random
 import csv
