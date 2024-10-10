@@ -4,6 +4,21 @@ numero,tema,pregunta,respuestas,respuestas_correctas
 3,Tema 1,¿Cuáles son ejemplos de evolución del Hardware?,a) Microprocesador;b) Circuitos integrados;c) Interfaces gráficas de usuario;d) Válculas de vacío; e) Redes de Computadores,a;b;d;e
 4,Tema 1,¿Cuáles son algunos problemas comunes en la industria del Software?,a) Sobrecostes;b) Retrasos en los Proyectos;c) Baja calidad del Software;d) Demasiado Hardware obsoleto;e) Mantenimiento complejo,a) Sobrecostes;b) Retrasos en los Proyectos;c) Baja calidad del Software;e) Mantenimiento 
 5,Tema 1,¿Cuáles son causas de fracasos en proyectos de software según el CHAOS Report?,a) Requisitos incompletos;b) Expectativas no realistas;c) Especificaciones cambiantes;d) Apoyo insuficiente de los directivos;e) Hitos del proyecto pequeños,a) Requisitos incompletos;b) Expectativas no realistas;c) Especificaciones cambiantes
+6,Tema 1,¿Qué incidentes están relacionados con fallos de software?,a) Therac-25;b) Efecto 2000;c) Ariane 5;d) A400-M de Airbus;e) IBM 701,a;b;c;d
+7,Tema 1,¿Cuáles son pilares de una ingeniería según el documento?,a) Tecnología;b) Buenas prácticas;c) Herramientas;d) Costos;e) Metodologías,a;b;c;e
+8,Tema 1,¿Cuáles son roles en un proyecto de software?,a) Director de proyecto;b) Ingeniero de requisitos;c) Ingeniero de hardware;d) Administrador de redes;e) Equipo de calidad,a;b;e
+9,Tema 1,¿Qué tipo de mantenimiento se realiza para incorporar nuevos requisitos?,a) Correctivo;b) Perfectivo;c) Evolutivo;d) Adaptativo;e) Preventivo,c
+10,Tema 1,¿Cuáles son actividades del aseguramiento de la calidad del software?,a) Auditar productos del desarrollo;b) Documentar desviaciones;c) Probar el hardware;d) Definir el plan de calidad;e) Participar en la definición del plan del proyecto,a;b;d;e
+11,Tema 1,¿Cuáles son etapas de un proyecto de software?,a) Planificación;b) Ejecución;c) Auditoría;d) Control;e) Análisis de impacto,a;b;d
+12,Tema 1,¿Qué estándares o modelos son utilizados en ingeniería del software?,a) ISO/IEC/IEEE 12207:2017;b) CMMI-DEV;c) PMBOK;d) Agile;e) ITIL,a;b
+13,Tema 1,¿Cuáles son productos entregables habituales en un proyecto de software?,a) Especificación de requisitos;b) Plan de pruebas;c) Hardware ejecutable;d) Manuales de usuario;e) Código fuente,a;b;d;e
+14,Tema 1,¿Cuáles son tipos de mantenimiento del software?,a) Correctivo;b) Perfectivo;c) Evolutivo;d) Adaptativo;e) Proactivo,a;b;c;d
+15,Tema 1,¿Qué problemas comunes afectan a la gestión de un proyecto de software?,a) Falta de recursos;b) Expectativas poco claras;c) Tecnología obsoleta;d) Falta de planificación;e) Mala calidad del hardware,a;b;d
+16,Tema 1,¿Cuáles son beneficios de asegurar la calidad del software?,a) Mejora el rendimiento del software;b) Reduce los costos de mantenimiento;c) Minimiza los errores en fases tempranas;d) Elimina la necesidad de pruebas;e) Mejora la experiencia del usuario,a;b;c;e
+17,Tema 1,¿Qué procesos están incluidos en la gestión de la configuración?,a) Control de versiones;b) Control de cambios;c) Auditoría de configuración;d) Mantenimiento correctivo;e) Documentación de requerimientos,a;b;c
+18,Tema 1,¿Cuáles son componentes del ciclo de vida de un proyecto según ISO/IEC/IEEE 12207:2017?,a) Desarrollo;b) Operación;c) Eliminación;d) Control de calidad;e) Pruebas,a;b;c
+19,Tema 1,¿Cuáles son ejemplos de tecnologías utilizadas en proyectos de software?,a) Java;b) Python;c) Oracle;d) SCRUM;e) CMMI,a;b;c
+20,Tema 1,¿Cuáles son fases del ciclo de Deming en un proyecto software?,a) Plan;b) Do;c) Check;d) Act;e) Implement,a;b;c;d
 1,Tema 2,¿Qué incluye el ciclo de vida del software según ISO 12207?,a) Procesos;b) Actividades;c) Tareas;d) Herramientas;e) Equipos,a) Procesos;b) Actividades;c) Tareas
 2,Tema 2,¿Cuáles son fases del ciclo de vida clásico en cascada?,a) Análisis;b) Implementación;c) Diseño;d) Pruebas;e) Mantenimiento,a) Análisis;b) Implementación;c) Diseño;d) Pruebas;e) Mantenimiento
 3,Tema 2,¿Cuáles son ventajas del ciclo de vida en cascada?,a) Fácil de Planificar;b) Se conocen todos los requisitos desde el principio;c) Proporciona una plantilla para métodos;d) Evita errores durante las fases finales;e) Es utilizado en proyectos pequeños,a) Fácil de Planificar;c) Proporciona una plantilla para métodos
