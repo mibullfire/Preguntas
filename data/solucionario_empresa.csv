@@ -1,0 +1,31 @@
+numero,tema,pregunta,respuestas,correctas
+1,Tema 1,¿Cuáles son los subsistemas de una empresa?,a) Directivo;b) Financiero;c) Comercial;d) Productivo;e) Real,a;b;c;e
+2,Tema 1,¿Cómo se clasifican las empresas según el tamaño?,a) Pequeña;b) Mediana;c) Grande;d) Microempresa,a;b;c;d
+3,Tema 1,¿Qué sector pertenece a la agricultura?,a) Primario;b) Secundario;c) Terciario,a
+4,Tema 1,¿Qué características tiene la sociedad anónima (S.A.)?,a) Responsabilidad ilimitada;b) El capital se divide en acciones;c) Puede tener un único socio;d) Mínimo 60.000€ de capital social,b;c;d
+5,Tema 1,¿Cuál es una de las formas jurídicas de persona física?,a) Sociedad Civil;b) Empresario individual,b
+6,Tema 1,¿Qué empresa tiene menos de 10 empleados?,a) Microempresa;b) Pequeña empresa;c) Mediana empresa,a
+7,Tema 1,¿Cuáles son los tipos de cooperativa?,a) De trabajo asociado;b) De venta;c) De consumo;d) De producción,a;b;c;d
+8,Tema 1,¿Qué responsabilidad tienen las empresas mercantiles capitalistas?,a) Ilimitada;b) Limitada;c) Mixta,b
+9,Tema 1,¿Qué empresa pertenece al sector terciario?,a) Agricultura;b) Industria;c) Servicios;d) Manufactura,c
+10,Tema 1,¿Qué es el capital social?,a) La suma de los activos;b) Dinero que aportan los accionistas;c) La ganancia neta;d) El valor de las participaciones,b;d
+1,Tema 2,¿Qué ventaja tienen las estructuras organizativas planas?,a) Mayor especialización;b) Mejor comunicación;c) Más control;d) Mayor proximidad,b;d
+2,Tema 2,¿Qué componentes tiene una organización formal?,a) Núcleo de operaciones;b) Tecnoestructura;c) Línea intermedia;d) Staff de apoyo,a;b;c;d
+3,Tema 2,¿Cuál es una característica de las estructuras organizativas verticales?,a) Menor especialización;b) Mejor comunicación;c) Más control;d) Mayor proximidad,c
+4,Tema 2,¿Cómo se divide la estructura funcional?,a) Por departamentos;b) Por funciones;c) Por productos;d) Por geografía,b
+5,Tema 2,¿Qué es una estructura divisional?,a) Divide por productos y geografía;b) Divide por funciones;c) Solo tiene una unidad estratégica de negocio;d) Es típica de pequeñas empresas,a
+6,Tema 2,¿Qué tipo de estructura tiene una combinación de divisiones y funciones?,a) Matricial;b) Simple;c) Funcional;d) Trébol,a
+7,Tema 2,¿Qué son las organizaciones en trébol?,a) Alianza de empresas;b) Organización principal con subcontratación;c) Núcleo de operaciones simple;d) Alta dirección controla todo,b;d
+8,Tema 2,¿Qué tipo de organización es una alianza a largo plazo entre clientes y proveedores?,a) Organización virtual;b) Estructura matricial;c) Configuración en red;d) Organización funcional,c
+9,Tema 2,¿Qué característica define una organización informal?,a) Es controlada;b) Surge espontáneamente;c) Es más fiable;d) Tiene plan definido,b
+10,Tema 2,¿Qué empresas trabajan en base al tiempo real?,a) Compañías industriales;b) Organizaciones virtuales;c) Empresas en tiempo real;d) Estructuras funcionales,c
+1,Tema 3,¿Qué características tiene un mercado de competencia perfecta?,a) Muchos vendedores y compradores;b) Barreras de entrada;c) Producto homogéneo;d) Control de precios por oferentes,a;c
+2,Tema 3,¿Qué caracteriza un mercado de oligopolio?,a) Muchas empresas;b) Pocas empresas;c) Barreras de entrada grandes;d) Precios determinados por oferentes,b;c;d
+3,Tema 3,¿Qué es un monopolio?,a) Único vendedor;b) Producto sustituible;c) Sin poder sobre el precio;d) Enormes barreras de entrada,a;d
+4,Tema 3,¿Qué es un oligopsonio?,a) Pocos consumidores;b) Pocos vendedores;c) Un consumidor;d) Poder sobre el precio y producto,a;d
+5,Tema 3,¿De qué depende la cantidad demandada?,a) Precio del bien;b) Gustos de los clientes;c) Renta personal;d) Tecnología,a;b;c
+6,Tema 3,¿Qué sucede en el exceso de oferta?,a) P1 < P*;b) Qd1 > Q01;c) Q01 > Qd1;d) Qd2 > Q02,c
+7,Tema 3,¿Qué mide la elasticidad-precio de la demanda?,a) Sensibilidad del precio;b) Sensibilidad de la cantidad demandada;c) Sensibilidad de la oferta;d) Sensibilidad de la renta,b
+8,Tema 3,¿Qué elasticidad se da cuando la demanda cambia enormemente ante una variación del precio?,a) Inelástica;b) Unitaria;c) Elástica;d) Continua,c
+9,Tema 3,¿Qué tipo de bien es aquel cuya demanda aumenta cuando aumenta la renta?,a) Bien normal;b) Bien inferior;c) Bien complementario;d) Bien sustituto,a
+10,Tema 3,¿Qué sucede cuando los precios aumentan en una curva elástica?,a) Aumentan los ingresos;b) Disminuyen los ingresos;c) No varían los ingresos;d) La demanda es constante,b
