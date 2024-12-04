@@ -7,7 +7,7 @@ if __name__ == "__main__":
 
     # Obtener la ruta absoluta del archivo CSV
     script_dir = os.path.dirname(__file__)
-    csv_path = os.path.join(script_dir, 'data/solucionario_empresa.csv')
+    csv_path = os.path.join(script_dir, 'data/1.csv')
 
     # Leer el archivo CSV con las preguntas
     preguntas = leer_fichero(csv_path)

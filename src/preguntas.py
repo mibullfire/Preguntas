@@ -11,8 +11,12 @@ def leer_fichero(ruta):
     with open(ruta, encoding='utf-8') as f:
         lector = csv.reader(f, delimiter=',')
         next(lector)
-        for numero, tema, pregunta, respuestas, correctas in lector:
-            res.append(soluciones(int(numero), tema, pregunta, respuestas.split(';'), correctas.split(';')))
+        for linea in lector:
+            try:
+                numero, tema, pregunta, respuestas, correctas = linea
+                res.append(soluciones(int(numero), tema, pregunta, respuestas.split(';'), correctas.split(';')))
+            except ValueError:
+                continue
     return res
 
 class QuizApp:
